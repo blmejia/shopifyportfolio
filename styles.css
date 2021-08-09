@@ -65,9 +65,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 5%;
@@ -79,9 +76,6 @@
   height: -moz-fit-content;
   height: fit-content;
   padding: 20px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
