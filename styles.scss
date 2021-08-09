@@ -1,5 +1,9 @@
 #container{
    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
    #project{
     display: flex;
     align-items: center;
@@ -10,7 +14,7 @@
     height: fit-content;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: fit-content;
+    width: 90%;
 
     img{
         max-width: 80%;
@@ -58,11 +62,12 @@
     height: fit-content;
     padding: 20px;
     //justify-content: space-evenly;
-    //background-color: rebeccapurple;
-    width: fit-content;
+    //background-color: rgba(255, 255, 255, 0.911);
+    width: 100%;
 
     img{
         width: 350px;
+        max-width: 80%;
 
         
     }
