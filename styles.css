@@ -42,7 +42,9 @@
   background: #fff;
   border: 3px solid #ff2c5a;
   padding: 8px 40px;
-  width: 15%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   border-radius: 80px;
   font-weight: bold;
   margin: 2vh 0px;
