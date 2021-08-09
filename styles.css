@@ -217,6 +217,7 @@ form p button {
   margin: 2vh 0px;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
+  text-align: center;
 }
 
 form p button:hover {
