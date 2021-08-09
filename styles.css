@@ -35,7 +35,7 @@
   height: 0;
 }
 
-#container #project a button {
+#container #project a {
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
   color: #ff2c5a;
@@ -50,7 +50,7 @@
   transition: 0.4s ease-in-out;
 }
 
-#container #project a button:hover {
+#container #project a:hover {
   -webkit-box-shadow: 0px 10px 30px rgba(255, 44, 90, 0.8);
           box-shadow: 0px 10px 30px rgba(255, 44, 90, 0.8);
   cursor: pointer;
