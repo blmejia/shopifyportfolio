@@ -4,6 +4,10 @@
   }
 }
 
+span {
+  font-weight: bolder;
+}
+
 #container {
   width: 100%;
   display: -webkit-box;
