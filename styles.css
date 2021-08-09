@@ -71,9 +71,6 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 5%;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: solid .5px;
@@ -88,9 +85,7 @@
 }
 
 #container #project2 img {
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+  max-width: 50%;
 }
 
 #container #project2 .break {
