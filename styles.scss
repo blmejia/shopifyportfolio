@@ -161,7 +161,8 @@
 form{
     p{
         button{
-            
+                display: flex;
+                justify-content: center;
                 font-size:18px;
                 font-family: 'Poppins', sans-serif;
                 color:rgb(255, 44, 90);
