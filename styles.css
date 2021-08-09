@@ -36,6 +36,7 @@
 
 #container #project img {
   max-width: 80%;
+  height: 400px;
 }
 
 #container #project .break {
@@ -90,6 +91,7 @@
 
 #container #project2 img {
   max-width: 80%;
+  height: 400px;
 }
 
 #container #project2 .break {
@@ -149,6 +151,7 @@
 
 #container #project3 img {
   max-width: 80%;
+  height: 400px;
 }
 
 #container #project3 .break {
