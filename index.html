@@ -137,12 +137,27 @@
                         </div>
                     </td>
                     <td>
-                        <form>
+                        <!--<form>
                             <input type="text" placeholder="name" required>
                             <input type="email" placeholder="email" required><br>
                             <textarea placeholder="your message" required rows="5"></textarea><br>
                             <button class="btn_one">send</button>
-                        </form> 
+                        </form>  -->
+                        <form name="contact" action="POST" data-netlify="true">
+                            <p>
+                              <label>Your Name: <input type="text" name="name" /></label>   
+                            </p>
+                            <p>
+                              <label>Your Email: <input type="email" name="email" /></label>
+                            </p>
+                            
+                            <p>
+                              <label>Message: <textarea name="message"></textarea></label>
+                            </p>
+                            <p>
+                              <button type="submit">Send</button>
+                            </p>
+                          </form>
                     </td>
                 </tr>
             </table>
