@@ -14,7 +14,7 @@
     height: fit-content;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: 90%;
+    width: 100%;
 
     img{
         max-width: 80%;
@@ -53,22 +53,23 @@
 
    #project2{
     display: flex;
-    //align-items: flex-end;
+    align-items: center;
     flex-wrap: wrap;
     margin-bottom: 5%;
-    //justify-content: flex-end;
+    justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: solid .5px;
     border-radius: 25px;
     height: fit-content;
     padding: 20px;
     //justify-content: space-evenly;
-    //background-color: rgba(255, 255, 255, 0.911);
+    background-color: rgba(238, 238, 240, 0.911);
     width: 100%;
 
     img{
         max-width: 80%;
         height: 400px;
+        margin: 3%;
 
         
     }

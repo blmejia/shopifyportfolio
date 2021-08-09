@@ -31,7 +31,7 @@
   padding: 20px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 90%;
+  width: 100%;
 }
 
 #container #project img {
@@ -75,9 +75,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: solid .5px;
@@ -86,12 +92,14 @@
   height: -moz-fit-content;
   height: fit-content;
   padding: 20px;
+  background-color: rgba(238, 238, 240, 0.911);
   width: 100%;
 }
 
 #container #project2 img {
   max-width: 80%;
   height: 400px;
+  margin: 3%;
 }
 
 #container #project2 .break {
