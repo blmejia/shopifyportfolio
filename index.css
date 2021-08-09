@@ -201,7 +201,7 @@ header table {
 #bio {
     width:72vw;
     padding:6vh 4vw;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: larger;
 }
 #bio h1 {
