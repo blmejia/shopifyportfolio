@@ -173,7 +173,7 @@
   background: #ff2c5a;
 }
 
-form p buttoin {
+form p button {
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
   color: #ff2c5a;
@@ -188,7 +188,7 @@ form p buttoin {
   transition: 0.4s ease-in-out;
 }
 
-form p buttoin:hover {
+form p button:hover {
   -webkit-box-shadow: 0px 10px 30px rgba(255, 44, 90, 0.8);
           box-shadow: 0px 10px 30px rgba(255, 44, 90, 0.8);
   cursor: pointer;
