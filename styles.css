@@ -90,6 +90,9 @@
 
 #container #project2 img {
   width: 350px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   max-width: 80%;
 }
 
